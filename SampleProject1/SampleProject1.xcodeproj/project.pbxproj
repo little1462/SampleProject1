@@ -15,6 +15,7 @@
 		4CBB51EA1AAE83490051F127 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB51E91AAE83490051F127 /* Images.xcassets */; };
 		4CBB51ED1AAE83490051F127 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CBB51EB1AAE83490051F127 /* LaunchScreen.xib */; };
 		4CBB51F91AAE83490051F127 /* SampleProject1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB51F81AAE83490051F127 /* SampleProject1Tests.m */; };
+		4CBB52051AAEA55A0051F127 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB52041AAEA55A0051F127 /* CustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		4CBB51F21AAE83490051F127 /* SampleProject1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleProject1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CBB51F71AAE83490051F127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CBB51F81AAE83490051F127 /* SampleProject1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleProject1Tests.m; sourceTree = "<group>"; };
+		4CBB52031AAEA55A0051F127 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCell.h; path = CustomCell/CustomCell.h; sourceTree = SOURCE_ROOT; };
+		4CBB52041AAEA55A0051F127 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCell.m; path = CustomCell/CustomCell.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		4CBB51D81AAE83490051F127 /* SampleProject1 */ = {
 			isa = PBXGroup;
 			children = (
+				4CBB52021AAEA4DC0051F127 /* CustomCell */,
 				4CBB51DD1AAE83490051F127 /* AppDelegate.h */,
 				4CBB51DE1AAE83490051F127 /* AppDelegate.m */,
 				4CBB51E31AAE83490051F127 /* ViewController.h */,
@@ -120,6 +124,15 @@
 				4CBB51F71AAE83490051F127 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CBB52021AAEA4DC0051F127 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB52031AAEA55A0051F127 /* CustomCell.h */,
+				4CBB52041AAEA55A0051F127 /* CustomCell.m */,
+			);
+			name = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +239,7 @@
 				4CBB51DF1AAE83490051F127 /* AppDelegate.m in Sources */,
 				4CBB51E51AAE83490051F127 /* ViewController.m in Sources */,
 				4CBB51DC1AAE83490051F127 /* main.m in Sources */,
+				4CBB52051AAEA55A0051F127 /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +430,7 @@
 				4CBB51FE1AAE83490051F127 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CBB51FF1AAE83490051F127 /* Build configuration list for PBXNativeTarget "SampleProject1Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +439,7 @@
 				4CBB52011AAE83490051F127 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
